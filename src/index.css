@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+.topics-list,
+.quizzes-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic,
+.quiz {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 500px;
+  height: 250px;
+  background: gray;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
