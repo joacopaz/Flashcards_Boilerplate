@@ -1,26 +1,13 @@
-# To Run
+# Flashcards BoilerPlate
 
-Run `npm start` in the project root and the app will be available on port 3000.
+To install just run npm install, the package is up to dae with react router dom v6 and the files correctly adapted up to October 2022.
 
-# State
+To get the current updated version of all packages up to the date you will be using this project run the command below
 
-The app's state is totally normalized, with slices for topics, quizzes, and cards.
+´´´
+npm i -g npm-check-updates
+ncu -u
+npm install
+´´´
 
-# Routes
-
-- `/new-topic` – form to create a new topic
-- `/topics` – index of all topics
-- `/topics/:topicId` – page for an individual topic
-- `/new-quiz` – form to create a new quiz
-- `/quizzes` – index of all quizzes
-- `/quizzes/:quizId` – page for an individual quiz
-
-# To Test
-
-1. Create topics
-2. Create quizzes
-3. Visit the page for an individual quiz and flip the cards over
-
-# Questions
-
-Is this appropriately scoped? Does it have too many features? Too few?
+If there is any issues with dependencies run npm install --force. Don't worry too much about vulnerabilities, npm is buggy that way and also this is a sample project and you won't be using it for more than a portfolio showing.
