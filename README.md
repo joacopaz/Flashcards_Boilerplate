@@ -1,6 +1,6 @@
 # Flashcards BoilerPlate
 
-To install just run `npm install`, the package is up to dae with react router dom v6 and the files correctly adapted up to October 2022.
+To install just run `npm install`, the package is up to date with react router dom v6 and the files correctly adapted up to October 2022.
 
 Start the local server with `npm start`
 
